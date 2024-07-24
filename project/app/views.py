@@ -48,4 +48,12 @@ def home(request):
     print(data.id,data.stu_name,data.stu_city,data.stu_email)
     '''
 
+   #=====================delete================
+    # data=Student.objects.get(id=4).delete()
+    # print(data) or
+    # data=Student.objects.get(id=8)
+    # data.delete()
+
+    # data=Student.objects.filter(stu_name="himanshi").delete()
+    # print(data)
     return HttpResponse('hello...................')
