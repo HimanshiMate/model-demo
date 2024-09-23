@@ -23,8 +23,8 @@ def home(request):
  
 
 #=================================single object query=======================================,,,,.
-    # data0 = Student.objects.get(id=2)
-    # print(data0)
+    data0 = Student.objects.get(id=2)
+    print(data0)
 
     # data0 = Student.objects.first()
     # print(data0)
